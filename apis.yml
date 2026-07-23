@@ -1,24 +1,78 @@
 aid: avec
 name: Avec
-description: Avec is a company surfaced as a portfolio company of bloomberg-beta, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Avec is a free, AI-powered email application for Gmail, built by Nearly Extraterrestrial
+  Technology, Inc. The iOS app prioritizes a user's inbox and surfaces important messages one
+  at a time in a card-based interface, learning individual preferences over time so the most
+  relevant email rises to the top. Users swipe to mark messages done or save them for later,
+  compose replies by voice in their own writing style, receive smart notifications with email
+  summaries, and search their mailbox with natural-language AI. Founded in 2024 by CEO Jonathan
+  Unikowski and backed at seed stage by Bloomberg Beta and Lightspeed Venture Partners, Avec is
+  a consumer productivity product rather than an API provider - it exposes no public developer
+  API, SDK, or documentation surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/avec/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avec.ai/opengraph-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
 - lightspeed-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: consumer-app-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Email
+- Productivity
+- Artificial Intelligence
+- Gmail
+- Email Management
+- Consumer Application
+- iOS
 apis: []
+common:
+- type: DomainSecurity
+  url: security/avec-domain-security.yml
+- type: Website
+  url: https://www.avec.ai
+- type: SignUp
+  url: https://avec.ai/download
+- type: TermsOfService
+  url: https://avec.ai/terms
+- type: PrivacyPolicy
+  url: https://avec.ai/privacy-policy
+- type: Support
+  url: mailto:hi@avec.ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/avec-ai
+- type: Twitter
+  url: https://x.com/avec
+- type: YouTube
+  url: https://www.youtube.com/@avec-ai
+- type: Instagram
+  url: https://www.instagram.com/avecemail/
+- type: AppStore
+  url: https://apps.apple.com/us/app/avec-ai-email-for-gmail/id6742199038
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
